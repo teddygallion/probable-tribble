@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+}
+.container{
+  width: 80%;
+  height:80%;
+}
+.hero-image{
+    /*Use "linear-gradient" to add a darken background effect to the image This will make the text easier to read */
+  /* Set a specific height */
+  height:80%;
+  width:80%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.imgur.com/0FlB2Nr.jpg?1);
+  text-align: center;
+  vertical-align: bottom;
+  height:60%;
+  width:40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

@@ -1,0 +1,55 @@
+
+.Projects{
+	width:60%;
+	margin: auto;
+}
+section{
+	padding: 30px;
+	color:black;
+	margin: 50px;
+	height: 300px;
+	width:60%;
+}
+section:nth-child(odd){
+	background-color:grey;
+}
+section:nth-child(even){
+	background-color:darkgrey;
+}
+p{
+	width:50%;
+	margin:auto;
+}
+h3{
+	color: maroon;
+	width:50%;
+	margin:auto;
+}
+ul{
+	list-style: none;
+	text-decoration: underline;
+	width:50%;
+	margin:auto;
+}
+img{
+	width:100px;
+	height:100px;
+	margin:auto;
+}
+.image1{
+	padding-right:50px;
+}
+.image2{
+	padding-left:50px;
+}
+li{
+}
+li:hover{
+	font-size: 1.5em;
+}
+.Project-even{
+	background:lightgrey;
+}
+.Project-odd{
+	background:darkgrey;
+}
